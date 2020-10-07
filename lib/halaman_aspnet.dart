@@ -31,27 +31,36 @@ class _HalamanASPNETState extends State<HalamanASPNET> {
               backgroundColor: Color.fromRGBO(0, 0, 0, 0),
             ),
             Text('ASP.Net adalah kumpulan teknologi dalam Framework .Net untuk membantu pengembangan aplikasi web yang menggunakan Object — Oriented secara dinamis, teknologi yang diciptakan oleh Microsoft untuk pemograman Internet yang lebih efisien'),
-            RaisedButton(
-              onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return HalamanSwift();
-                }));
-              },
-              child: Text('Ke Halaman Swift'), color: Colors.blue,
+            SizedBox(
+              width:100,
+              child: RaisedButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return HalamanSwift();
+                  }));
+                },
+                child: Text('Ke Halaman Swift'), color: Colors.blue,
+              ),
             ),
-            RaisedButton(
-              onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return HalamanKotlin();
-                }));
-              },
-              child: Text('Ke Halaman Kotlin'), color: Colors.blue,
+            SizedBox(
+              width:100,
+              child: RaisedButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return HalamanKotlin();
+                  }));
+                },
+                child: Text('Ke Halaman Kotlin'), color: Colors.blue,
+              ),
             ),
-            RaisedButton(
-              onPressed: () {
-                Navigator.pop(context);
-              },
-              child: Text('Back'), color: Colors.blue,
+            SizedBox(
+              width:100,
+              child: RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text('Back'), color: Colors.blue,
+              ),
             ),
           ],
         ),

@@ -29,27 +29,36 @@ class _HalamanPythonState extends State<HalamanPython> {
               backgroundColor: Color.fromRGBO(0, 0, 0, 0),
             ),
             Text('Python diciptakan oleh Guido van Rossum pertama kali di  Centrum Wiskunde & Informatica (CWI) di Belanda pada awal tahun 1990-an. Bahasa python terinspirasi dari bahasa pemrograman ABC. Sampai sekarang, Guido masih menjadi penulis utama untuk python, meskipun bersifat open source sehingga ribuan orang juga berkontribusi dalam mengembangkannya.'),
-            RaisedButton(
-              onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return HalamanKotlin();
-                }));
-              },
-              child: Text('Ke Halaman Kotlin'), color: Colors.lightBlue,
+            SizedBox(
+              width:100,
+              child: RaisedButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return HalamanKotlin();
+                  }));
+                },
+                child: Text('Ke Halaman Kotlin'), color: Colors.lightBlue,
+              ),
             ),
-            RaisedButton(
-              onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return HalamanSwift();
-                }));
-              },
-              child: Text('Ke Halaman Swift'), color: Colors.lightBlue,
+            SizedBox(
+              width:100,
+              child: RaisedButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return HalamanSwift();
+                  }));
+                },
+                child: Text('Ke Halaman Swift'), color: Colors.lightBlue,
+              ),
             ),
-            RaisedButton(
-              onPressed: () {
-                Navigator.pop(context);
-              },
-              child: Text('Back'), color: Colors.lightBlue,
+            SizedBox(
+              width:100,
+              child: RaisedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text('Back'), color: Colors.lightBlue,
+              ),
             ),
           ],
         ),
