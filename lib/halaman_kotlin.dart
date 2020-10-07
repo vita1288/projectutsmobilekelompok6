@@ -37,7 +37,7 @@ class _HalamanKotlinState extends State<HalamanKotlin> {
                     return HalamanASPNET();
                   }));
                 },
-                child: Text('Ke Halaman ASP.NET'), color: Colors.blue,
+                child: Text('Halaman ASP.NET'), color: Colors.blue,
               ),
             ),
             SizedBox(

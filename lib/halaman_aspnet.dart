@@ -39,7 +39,7 @@ class _HalamanASPNETState extends State<HalamanASPNET> {
                     return HalamanSwift();
                   }));
                 },
-                child: Text('Ke Halaman Swift'), color: Colors.blue,
+                child: Text('Halaman Swift'), color: Colors.blue,
               ),
             ),
             SizedBox(
@@ -50,7 +50,7 @@ class _HalamanASPNETState extends State<HalamanASPNET> {
                     return HalamanKotlin();
                   }));
                 },
-                child: Text('Ke Halaman Kotlin'), color: Colors.blue,
+                child: Text('Halaman Kotlin'), color: Colors.blue,
               ),
             ),
             SizedBox(

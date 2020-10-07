@@ -38,7 +38,7 @@ class _HalamanSwiftState extends State<HalamanSwift> {
                     return HalamanPython();
                   }));
                 },
-                child: Text('Ke Halaman Python'), color: Colors.orange,
+                child: Text('Halaman Python'), color: Colors.orange,
               ),
             ),
             SizedBox(
@@ -49,7 +49,7 @@ class _HalamanSwiftState extends State<HalamanSwift> {
                     return HalamanKotlin();
                   }));
                 },
-                child: Text('Ke Halaman Kotlin'), color: Colors.orange,
+                child: Text('Halaman Kotlin'), color: Colors.orange,
               ),
             ),
             SizedBox(
