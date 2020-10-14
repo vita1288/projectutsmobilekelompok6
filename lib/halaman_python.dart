@@ -28,7 +28,10 @@ class _HalamanPythonState extends State<HalamanPython> {
               radius: 100.0,
               backgroundColor: Color.fromRGBO(0, 0, 0, 0),
             ),
-            Text('Python diciptakan oleh Guido van Rossum pertama kali di  Centrum Wiskunde & Informatica (CWI) di Belanda pada awal tahun 1990-an. Bahasa python terinspirasi dari bahasa pemrograman ABC. Sampai sekarang, Guido masih menjadi penulis utama untuk python, meskipun bersifat open source sehingga ribuan orang juga berkontribusi dalam mengembangkannya.'),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text('Python diciptakan oleh Guido van Rossum pertama kali di  Centrum Wiskunde & Informatica (CWI) di Belanda pada awal tahun 1990-an. Bahasa python terinspirasi dari bahasa pemrograman ABC. Sampai sekarang, Guido masih menjadi penulis utama untuk python, meskipun bersifat open source sehingga ribuan orang juga berkontribusi dalam mengembangkannya.'),
+            ),
             SizedBox(
               width:100,
               child: RaisedButton(

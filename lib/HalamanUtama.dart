@@ -34,76 +34,88 @@ class HalamanUtama extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment : CrossAxisAlignment.center,
               children: [
-                Card(
-                  child: InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                            return HalamanKotlin();
-                          }));
-                    },
-                    child: ListTile(
-                      leading: Image.asset(
-                        'assets/img/kotlin.jpg',
-                        height: 50.0,
-                        width: 50.0,
-                        scale: 20.0,
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) {
+                              return HalamanKotlin();
+                            }));
+                      },
+                      child: ListTile(
+                        leading: Image.asset(
+                          'assets/img/kotlin.jpg',
+                          height: 50.0,
+                          width: 50.0,
+                          scale: 20.0,
+                        ),
+                        title: Text('Kotlin'),
                       ),
-                      title: Text('Kotlin'),
                     ),
                   ),
                 ),
-                Card(
-                  child: InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                            return HalamanPython();
-                          }));
-                    },
-                    child: ListTile(
-                      leading: Image.asset(
-                        'assets/img/python.jpg',
-                        height: 50.0,
-                        width: 50.0,
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) {
+                              return HalamanPython();
+                            }));
+                      },
+                      child: ListTile(
+                        leading: Image.asset(
+                          'assets/img/python.jpg',
+                          height: 50.0,
+                          width: 50.0,
+                        ),
+                        title: Text('Python'),
                       ),
-                      title: Text('Python'),
                     ),
                   ),
                 ),
-                Card(
-                  child: InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                            return HalamanSwift();
-                          }));
-                    },
-                    child: ListTile(
-                      leading: Image.asset(
-                        'assets/img/swift.png',
-                        height: 50.0,
-                        width: 50.0,
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) {
+                              return HalamanSwift();
+                            }));
+                      },
+                      child: ListTile(
+                        leading: Image.asset(
+                          'assets/img/swift.png',
+                          height: 50.0,
+                          width: 50.0,
+                        ),
+                        title: Text('Swift'),
                       ),
-                      title: Text('Swift'),
                     ),
                   ),
                 ),
-                Card(
-                  child: InkWell(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                            return HalamanASPNET();
-                          }));
-                    },
-                    child: ListTile(
-                      leading: Image.asset(
-                        'assets/img/logo.asp.jpeg',
-                        height: 50.0,
-                        width: 50.0,
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) {
+                              return HalamanASPNET();
+                            }));
+                      },
+                      child: ListTile(
+                        leading: Image.asset(
+                          'assets/img/logo.asp.jpeg',
+                          height: 50.0,
+                          width: 50.0,
+                        ),
+                        title: Text('ASP.NET'),
                       ),
-                      title: Text('ASP.NET'),
                     ),
                   ),
                 ),

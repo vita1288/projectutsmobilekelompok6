@@ -31,35 +31,44 @@ class _HalamanASPNETState extends State<HalamanASPNET> {
               backgroundColor: Color.fromRGBO(0, 0, 0, 0),
             ),
             Text('ASP.Net adalah kumpulan teknologi dalam Framework .Net untuk membantu pengembangan aplikasi web yang menggunakan Object — Oriented secara dinamis, teknologi yang diciptakan oleh Microsoft untuk pemograman Internet yang lebih efisien'),
-            SizedBox(
-              width:100,
-              child: RaisedButton(
-                onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return HalamanSwift();
-                  }));
-                },
-                child: Text('Halaman Swift'), color: Colors.blue,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: SizedBox(
+                width:100,
+                child: RaisedButton(
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) {
+                      return HalamanSwift();
+                    }));
+                  },
+                  child: Text('Halaman Swift'), color: Colors.blue,
+                ),
               ),
             ),
-            SizedBox(
-              width:100,
-              child: RaisedButton(
-                onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return HalamanKotlin();
-                  }));
-                },
-                child: Text('Halaman Kotlin'), color: Colors.blue,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: SizedBox(
+                width:100,
+                child: RaisedButton(
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) {
+                      return HalamanKotlin();
+                    }));
+                  },
+                  child: Text('Halaman Kotlin'), color: Colors.blue,
+                ),
               ),
             ),
-            SizedBox(
-              width:100,
-              child: RaisedButton(
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                child: Text('Back'), color: Colors.blue,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: SizedBox(
+                width:100,
+                child: RaisedButton(
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  child: Text('Back'), color: Colors.blue,
+                ),
               ),
             ),
           ],
