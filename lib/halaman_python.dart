@@ -41,7 +41,7 @@ class _HalamanPythonState extends State<HalamanPython> {
                   }));
                 },
                 child: Text('Halaman Kotlin', style: TextStyle(
-                    fontSize: 10.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.lightBlue,
+                    fontSize: 11.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.lightBlue,
               ),
             ),
             SizedBox(

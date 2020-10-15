@@ -42,7 +42,7 @@ class _HalamanSwiftState extends State<HalamanSwift> {
                   }));
                 },
                 child: Text('Halaman Python', style: TextStyle(
-                    fontSize: 10.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.orange,
+                    fontSize: 11.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.orange,
               ),
             ),
             SizedBox(
