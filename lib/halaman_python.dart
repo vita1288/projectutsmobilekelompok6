@@ -40,7 +40,8 @@ class _HalamanPythonState extends State<HalamanPython> {
                     return HalamanKotlin();
                   }));
                 },
-                child: Text('Halaman Kotlin'), color: Colors.lightBlue,
+                child: Text('Halaman Kotlin', style: TextStyle(
+                    fontSize: 10.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.lightBlue,
               ),
             ),
             SizedBox(
@@ -51,7 +52,8 @@ class _HalamanPythonState extends State<HalamanPython> {
                     return HalamanSwift();
                   }));
                 },
-                child: Text('Halaman Swift'), color: Colors.lightBlue,
+                child: Text('Halaman Swift',style: TextStyle(
+                    fontSize: 11.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.lightBlue,
               ),
             ),
             SizedBox(
@@ -60,7 +62,8 @@ class _HalamanPythonState extends State<HalamanPython> {
                 onPressed: () {
                   Navigator.pop(context);
                 },
-                child: Text('Back'), color: Colors.lightBlue,
+                child: Text('Back', style: TextStyle(
+                    fontSize: 11.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.lightBlue,
               ),
             ),
           ],

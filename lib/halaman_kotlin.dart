@@ -40,7 +40,8 @@ class _HalamanKotlinState extends State<HalamanKotlin> {
                     return HalamanASPNET();
                   }));
                 },
-                child: Text('Halaman ASP.NET'), color: Colors.blue,
+                child: Text('Halaman ASP.NET', style: TextStyle(
+                    fontSize: 11.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.blue,
               ),
             ),
             SizedBox(
@@ -49,7 +50,8 @@ class _HalamanKotlinState extends State<HalamanKotlin> {
                 onPressed: () {
                   Navigator.pop(context);
                 },
-                child: Text('Back'), color: Colors.blue,
+                child: Text('Back', style: TextStyle(
+                    fontSize: 11.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.blue,
               ),
             ),
           ],

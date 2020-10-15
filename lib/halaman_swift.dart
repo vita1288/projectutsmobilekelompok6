@@ -41,7 +41,8 @@ class _HalamanSwiftState extends State<HalamanSwift> {
                     return HalamanPython();
                   }));
                 },
-                child: Text('Halaman Python'), color: Colors.orange,
+                child: Text('Halaman Python', style: TextStyle(
+                    fontSize: 10.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.orange,
               ),
             ),
             SizedBox(
@@ -52,7 +53,8 @@ class _HalamanSwiftState extends State<HalamanSwift> {
                     return HalamanKotlin();
                   }));
                 },
-                child: Text('Halaman Kotlin'), color: Colors.orange,
+                child: Text('Halaman Kotlin', style: TextStyle(
+                    fontSize: 11.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.orange,
               ),
             ),
             SizedBox(
@@ -61,7 +63,8 @@ class _HalamanSwiftState extends State<HalamanSwift> {
                 onPressed: () {
                   Navigator.pop(context);
                 },
-                child: Text('Back'), color: Colors.orange,
+                child: Text('Back',style: TextStyle(
+                    fontSize: 11.0, fontWeight: FontWeight.w700),textAlign: TextAlign.center), color: Colors.orange,
               ),
             ),
           ],
